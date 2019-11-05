@@ -57,7 +57,7 @@ class LinkList():
     def print_list(self):
         node = self.head
         while node.next != None:
-            print(node.next.value, " ")
+            print(node.next.value, end=" ")
             node = node.next
 
 if __name__ == '__main__':
